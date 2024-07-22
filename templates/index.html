@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Send Message</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 50px;
+        }
+        input[type="text"], input[type="submit"] {
+            font-size: 18px;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to our secure remote connection.</h1>
+    <p>Here you can be guaranteed of all the three aspects of the CIA triad. Feel free to send a message to your recipient!</p>
+    <form action="/" method="post">
+        <input type="text" name="phone_number" placeholder="Enter phone number" required>
+        <br>
+        <input type="text" name="message" placeholder="Enter your message" required>
+        <br>
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
